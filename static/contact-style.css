@@ -1,0 +1,55 @@
+@import url('style.css');
+
+
+
+.contact-section {
+    width: 100%;
+    margin: 5%;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.info-contact {
+    border: 2px solid white;
+    width: 50%;
+    margin: 2%;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.info {
+    margin: 2%;
+}
+
+.info p {
+    font-size: 1.3em;
+    font-family: 'Roboto Serif', serif;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+}
+
+textarea {
+    width: 250px;
+    height: 200px;
+}
+
+#submit {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(-40deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+#submit:hover {
+    background: linear-gradient(40deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 100%);
+}
+
+.info-contact .info {
+    padding-top: 30%;
+}
